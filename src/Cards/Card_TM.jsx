@@ -5,7 +5,7 @@ function Card_TM (props) {
         <div className="card">
             <Elementos foto={props.foto} nome={props.item} />
             <h3> {props.item} </h3>
-            <span className="detalhes">
+            <span className="details">
             <p> Preço: {props.preco} </p>    
             <p> Descrição: {props.descricao} </p>
             <p> Tipo: {props.tipo} </p>
